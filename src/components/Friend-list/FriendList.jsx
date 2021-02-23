@@ -3,7 +3,7 @@ import FriendListItem from './FriendListItem';
 import styles from './friend.module.css';
 
 const FriendList = ({ friends }) => (
-  <ul className={styles.friend_list}>
+  <ul className={styles.friend__list}>
     {friends.map(({ id, avatar, name, isOnline }) => (
       <FriendListItem
         key={id}
