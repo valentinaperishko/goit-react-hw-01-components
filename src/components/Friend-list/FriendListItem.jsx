@@ -1,13 +1,13 @@
-import React from 'react';
-import defaultImage from './default-image.jpg';
+import defaultImage from '../default-image.jpg';
 import PropTypes from 'prop-types';
+import styles from './friend.module.css';
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
-    <li className="item">
-      <span className="status">{isOnline}</span>
-      <img className="avatar" src={avatar} alt={name} width={48} />
-      <p className="name">{name}</p>
+    <li className={styles.item}>
+      <span className={styles.status}>{isOnline ? 'online' : 'offline'}</span>
+      <img className={styles.avatar} src={avatar} alt={name} width={48} />
+      <p className={styles.name}>{name}</p>
     </li>
   );
 };
