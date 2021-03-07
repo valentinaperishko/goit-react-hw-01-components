@@ -33,7 +33,7 @@ Profile.propTypes = {
     '👥': PropTypes.number.isRequired,
     '👀': PropTypes.number.isRequired,
     '❤️': PropTypes.number.isRequired,
-  }),
+  }).isRequired,
 };
 
 export default Profile;

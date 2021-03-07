@@ -1,6 +1,7 @@
 .friend__list {
   list-style: none;
   display: block;
+  padding: 0;
 }
 
 .item {
@@ -8,7 +9,7 @@
   align-items: center;
   width: 300px;
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
   border-radius: 10px;
   background: linear-gradient(
     20deg,

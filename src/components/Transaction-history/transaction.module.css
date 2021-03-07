@@ -8,6 +8,7 @@
 .transaction__history {
   margin: 0 auto;
   width: 300px;
+  margin-bottom: 30px;
 }
 .amount,
 .currency {
